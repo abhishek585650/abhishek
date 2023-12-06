@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            color: white;
+            margin: 0px;
+            padding: 0px;
+            background: url('imgh.jpg');
+        }
+
+        .left {
+            position: absolute;
+            display: inline-block;
+            top: 20px;
+            left: 40px;
+        }
+
+        .mid {
+            display: block;
+            width: 33%;
+            margin: 20px auto;
+            top: 0px;
+        }
+
+        .right {
+            position: absolute;
+            display: inline-block;
+            top: 20px;
+            right: 40px;
+        }
+
+        .navbar {
+            display: inline-block;
+        }
+
+        .navbar li {
+            display: inline-block;
+        }
+
+        .navbar li a {
+            color: white;
+            font-size: 15px;
+            text-decoration: none;
+            padding: 20px;
+        }
+
+        .navbar li a:hover,
+        .navbar li a:active {
+            color: aqua;
+            text-decoration: underline;
+        }
+
+        .img {
+            height: 40px;
+            width: 70px;
+        }
+
+        .bun {
+            margin: 0px 9px;
+            padding: 5px 15 px;
+            border: 3px solid gainsboro;
+            border-radius: 10px;
+            background-color: black;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .bun:hover {
+            background-color: blue;
+        }
+
+        .contaner {
+            border: 4px solid white;
+            margin: 100px 70px;
+            padding: 70px 15px;
+            border-radius: 20px;
+            width: 38%;
+           text-align: center;
+        }
+        .font input{
+            border: 4px solid black;
+            margin: 4px 50px;
+            border-radius: 20px;
+            width: 400px;
+            font-size: 20px;
+            text-align: center;
+            padding: 5px;
+        }
+         .contaner button{
+            width: 40px 30px;
+            border: 4px solid black;
+            border-radius: 8px;
+            font-size: 20px;
+             width: 200px;
+
+         }
+         .contaner button:hover{
+            font-weight:bolder;
+            background-color: blue;
+         }
+
+         .footer{
+      margin-top:50px;
+  }
+  
+  .foot-panel1{
+      background-color: #37475a;
+      color:white;
+      height:50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  .foot-panel2{
+      background-color:#222f3d ;
+      height:400px;
+      color:white;
+      display:flex;
+      justify-content: space-evenly;
+  }
+  
+  ul{
+      display:block;
+      margin-top: 50px;
+  }
+  
+  ul p{
+  
+      font-weight:700;
+  }
+  
+  ul a{
+      display:block;
+      margin-top: 10px;
+      font-size: 0.85rem;
+      color:#dddddd;
+  
+  }
+  
+  .foot-panel3{
+      background-color: #0f1111;
+      height:100px;
+      color:white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-top: 1px solid white;
+  }
+  
+  .amazonlogo2{
+  
+      background-image: url("nav-logo6.jpg");
+      background-size:cover;
+      height:50px;
+      width:100px;
+      display: block;
+    }
+  
+  
+    .foot-panel4{
+      background-color: #0f1111;
+      color:white;
+      /* display:flex;
+      justify-content: center;
+      align-items: center; */
+  
+      height:80px;
+    }
+  
+    #foot-ancor{
+      font-size: 0.75rem;
+      text-align: center;
+    }
+  
+    #copyright{
+      margin-top: 10px;
+      font-size: 0.8rem;
+      text-align: center;
+    }
+    </style>
+</head>
+
+<body>
+    <header class="headeh">
+        <div class="left">
+            <img class="img" src="gem.jpg" alt="">
+            <div>
+                Abhi gem
+            </div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Contact us</a></li>
+                <li><a href="#">Fitness calculate</a></li>
+                <li><a href="#">about us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="bun">Call now</button>
+            <button class="bun">Email us</button>
+        </div>
+    </header>
+    <div class="contaner">
+        <h1>The best gem of Chunar now</h1>
+        <form action="form.php">
+      <div class="font">
+        <input type="text" name="" placeholder="Enter Your Name">
+      </div>
+      <div class="font">
+        <input type="text" name="" placeholder="Enter Your Age">
+      </div>
+      <div class="font">
+        <input type="text" name="" placeholder="Enter Your Gender">
+      </div>
+      <div class="font">
+        <input type="text" name="" placeholder="Enter Your Locality">
+      </div>
+      <div class="font">
+        <input type="number" name="" placeholder="Enter Your Mobile no. ">
+      </div><br>
+      
+        <button class="btn">Submit</button>
+        <button class="btn">Reset</button>
+      
+        </form>
+    </div>
+    <footer>
+        <div class="foot-panel1">
+          Back to top
+        </div>
+    
+        <div class="foot-panel2">
+          <ul>
+            <p>Get to Know Us</p>
+            <a>About us</a>
+            <a>Careers</a>
+            <a>Press releases</a>
+            <a>Amazon science</a>
+          </ul>
+    
+          <ul>
+            <p>Connect with Us</p>
+            <a>Facebook</a>
+            <a>Twitter</a>
+            <a>Instagram</a>
+          </ul>
+    
+          <ul>
+            <p>Make Money with Us</p>
+            <a>Sell on amazon</a>
+            <a>Sell under amazon accelerator</a>
+            <a>Protect and build your brand</a>
+            <a>Amazon global selling</a>
+            <a>Become a affiliate</a>
+            <a>Fullfillment by Amazon</a>
+            <a>Adevertise your products</a>
+            <a>Amazon pay on merchant</a>
+          </ul>
+    
+          <ul>
+            <p>Let Us Help You</p>
+            <a>COVID-19 and amazon</a>
+            <a>Your Accounts </a>
+            <a>Retun center</a>
+            <a>100% purchase protection</a>
+            <a>Amazon app download</a>
+            <a>Help</a>
+          </ul>
+        </div>
+    
+        <div class="foot-panel3">
+    
+          <div class="amazonlogo2"></div>
+        </div>
+    
+        <div class="foot-panel4">
+          <div id="foot-ancor">
+            <a>Conditions of Use & Sale</a>
+            <a>Privacy notice</a>
+            <a>Interest based ads</a>
+          </div>
+    
+          
+          <div id="copyright">
+            © 1996-2023, Amazon.com, Inc. or its affiliates
+          </div>
+        </div>
+      </footer>
+</body>
+
+</html>

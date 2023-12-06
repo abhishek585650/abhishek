@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .logoa {
+            height: 50px;
+            width: 70px;
+        }
+
+        #nevbar::before {
+            content: "";
+            background :url(fl.jpg);
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            height: 100%;
+            width: 100%;
+            z-index: -1;
+            opacity: 0.5;
+        }
+
+        #nevbar {
+            display: flex;
+            position: relative;
+        }
+
+        ul {
+            display: flex;
+        }
+
+        #nevbar ul li {
+            list-style: none;
+            text-align: center;
+        }
+
+        #nevbar ul li a {
+            color: white;
+            display: block;
+            padding: 4px 14px;
+            border-radius: 20px;
+            text-decoration: none;
+            margin-left: 20px;
+            margin-top: 17px;
+        }
+
+        #nevbar ul li a:hover {
+            color: black;
+            background-color: white;
+        }
+
+        #home {
+            display: flex;
+            flex-direction: column;
+            padding: 10px 200px;
+            justify-content: center;
+            text-align: center;
+        }
+
+        #home::before {
+            content: "";
+            background :url(fl.jpg);
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            height: 100%;
+            width: 100%;
+            z-index: -1;
+            opacity: 0.5;
+        }
+
+        }
+    </style>
+</head>
+
+<body>
+    <nav id="nevbar">
+        <div id="logo">
+            <img class="logoa" src="logo.jpg" alt="">
+        </div>
+        <ul>
+            <li class="item"><a href="#">HOME</a></li>
+            <li class="item"><a href="#">SERVISES</a></li>
+            <li class="item"><a href="#">ABOUT US</a></li>
+            <li class="item"><a href="#">CONTECT US</a></li>
+            <li class="item"><a href="#">FEEADBACK</a></li>
+        </ul>
+    </nav>
+    <section id="home">
+        <h1 class="h1_p">Welcom to my oline Meal</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem nihil explicabo placeat tempore optio autem
+            veniam quos aperiam a eum mollitia incidunt laborum delectus laboriosam
+            vero, natus, sint cumque sed reprehenderit iure libero illo!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem nihil explicabo placeat tempore optio autem
+            veniam quos aperiam a eum mollitia incidunt laborum delectus laboriosam
+            vero, natus, sint cumque sed reprehenderit iure libero illo!</p>
+        <button class="btn">Order now</button>
+    </section>
+</body>
+
+</html>
